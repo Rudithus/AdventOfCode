@@ -9,6 +9,7 @@ namespace Solutions.Tests
         private readonly ITestOutputHelper _testOutputHelper = testOutputHelper;
 
         [Theory]
+        [InlineData(typeof(Day03MullItOver.Solution), 161)]
         [InlineData(typeof(Day02RedNosedReports.Solution), 2)]
         [InlineData(typeof(Day01HistorianHysteria.Solution), 11)]
         public void SolveFirst(Type sol, int firstExampleAnswer)
@@ -27,6 +28,7 @@ namespace Solutions.Tests
         }
 
         [Theory]
+        [InlineData(typeof(Day03MullItOver.Solution), 48)]
         [InlineData(typeof(Day02RedNosedReports.Solution), 8)]
         [InlineData(typeof(Day01HistorianHysteria.Solution), 31)]
         public void SolveSecond(Type sol, int secondExampleAnswer)

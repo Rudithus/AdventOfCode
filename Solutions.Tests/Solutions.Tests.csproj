@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\2024\C#\Day01HistorianHysteria\Day01HistorianHysteria.csproj" />
     <ProjectReference Include="..\2024\C#\Day02RedNosedReports\Day02RedNosedReports.csproj" />
+    <ProjectReference Include="..\Day03MullItOver\Day03MullItOver.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -29,7 +29,7 @@ namespace Day02RedNosedReports
 
                 if (success) safetyCount++;
             }
-
+            
             return safetyCount;
         }
 
