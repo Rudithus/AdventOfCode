@@ -20,6 +20,7 @@
     <ProjectReference Include="..\2024\C#\Day02RedNosedReports\Day02RedNosedReports.csproj" />
     <ProjectReference Include="..\2024\C#\Day03MullItOver\Day03MullItOver.csproj" />
     <ProjectReference Include="..\2024\C#\Day04CeresSearch\Day04CeresSearch.csproj" />
+    <ProjectReference Include="..\2024\C#\Day05PrintQueue\Day05PrintQueue.csproj" />
   </ItemGroup>
 
   <ItemGroup>
