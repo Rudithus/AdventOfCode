@@ -1,6 +1,5 @@
 ﻿using Xunit.Abstractions;
 using FluentAssertions;
-using System.Reflection.Metadata.Ecma335;
 
 namespace Solutions.Tests
 {
@@ -9,6 +8,7 @@ namespace Solutions.Tests
         private readonly ITestOutputHelper _testOutputHelper = testOutputHelper;
 
         [Theory]
+        [InlineData(typeof(Day06GuardGallivant.Solution), 41)]
         [InlineData(typeof(Day05PrintQueue.Solution), 143)]
         [InlineData(typeof(Day04CeresSearch.Solution), 18)]
         [InlineData(typeof(Day03MullItOver.Solution), 161)]
@@ -30,6 +30,7 @@ namespace Solutions.Tests
         }
 
         [Theory]
+        [InlineData(typeof(Day06GuardGallivant.Solution), 6)]
         [InlineData(typeof(Day05PrintQueue.Solution), 123)]
         [InlineData(typeof(Day04CeresSearch.Solution), 9)]
         [InlineData(typeof(Day03MullItOver.Solution), 48)]

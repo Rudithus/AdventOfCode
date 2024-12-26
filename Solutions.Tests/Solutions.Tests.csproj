@@ -21,6 +21,7 @@
     <ProjectReference Include="..\2024\C#\Day03MullItOver\Day03MullItOver.csproj" />
     <ProjectReference Include="..\2024\C#\Day04CeresSearch\Day04CeresSearch.csproj" />
     <ProjectReference Include="..\2024\C#\Day05PrintQueue\Day05PrintQueue.csproj" />
+    <ProjectReference Include="..\2024\C#\Day06GuardGallivant\Day06GuardGallivant.csproj" />
   </ItemGroup>
 
   <ItemGroup>
