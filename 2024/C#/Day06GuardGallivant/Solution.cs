@@ -140,7 +140,7 @@ namespace Day06GuardGallivant
             }
         }
 
-        public override int SolveFirst(IEnumerable<string> lines)
+        public override string SolveFirst(IEnumerable<string> lines)
         {
             var (_, guard) = GenerateMapAndStartingPoint(lines);
             var guardPositions = new HashSet<Position>();
@@ -152,12 +152,12 @@ namespace Day06GuardGallivant
                 if (!guard.TryMove()) guard.TurnRight();
             }
 
-            return guardPositions.Count;
+            return guardPositions.Count.ToString();
 
         }
 
 
-        public override int SolveSecond(IEnumerable<string> lines)
+        public override string SolveSecond(IEnumerable<string> lines)
         {
             var (map, guard) = GenerateMapAndStartingPoint(lines);
             var guardPath = new HashSet<Position>();
@@ -184,7 +184,7 @@ namespace Day06GuardGallivant
                 if (!guard.TryMove()) guard.TurnRight();
             }
 
-            return newObstacles.Count;
+            return newObstacles.Count.ToString();
         }
 
         private static bool TestForLoop(Guard guard)

@@ -33,7 +33,7 @@ namespace Day04CeresSearch
             }
         }
 
-        public override int SolveFirst(IEnumerable<string> lines)
+        public override string SolveFirst(IEnumerable<string> lines)
         {
             var map = lines.Select(Enumerable.ToArray).ToArray();
             var searchString = "MAS";
@@ -58,10 +58,10 @@ namespace Day04CeresSearch
                 }
             }
 
-            return xmases;
+            return xmases.ToString();
         }
 
-        public override int SolveSecond(IEnumerable<string> lines)
+        public override string SolveSecond(IEnumerable<string> lines)
         {
             var map = lines.Select(Enumerable.ToArray).ToArray();
             var mapSearch = new MapSearch(map);
@@ -83,7 +83,7 @@ namespace Day04CeresSearch
                 }
             }
 
-            return xmases;
+            return xmases.ToString();
         }
     }
 }

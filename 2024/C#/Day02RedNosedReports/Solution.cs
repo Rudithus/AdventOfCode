@@ -8,7 +8,7 @@ namespace Day02RedNosedReports
 
         protected override string InputFileName => "Day02_Input.txt";
 
-        public override int SolveFirst(IEnumerable<string> lines)
+        public override string SolveFirst(IEnumerable<string> lines)
         {
             var safetyCount = 0;
 
@@ -30,11 +30,11 @@ namespace Day02RedNosedReports
                 if (success) safetyCount++;
             }
             
-            return safetyCount;
+            return safetyCount.ToString();
         }
 
 
-        public override int SolveSecond(IEnumerable<string> lines)
+        public override string SolveSecond(IEnumerable<string> lines)
         {
             var safetyCount = 0;
 
@@ -46,7 +46,7 @@ namespace Day02RedNosedReports
                 if (Test(levels) || Test(levels.Reverse().ToArray())) safetyCount++;
             }
 
-            return safetyCount;
+            return safetyCount.ToString();
         }
 
         private bool Test(int[] levels)

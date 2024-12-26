@@ -8,7 +8,7 @@ namespace Day01HistorianHysteria
 
         protected override string InputFileName => "Day01_Input.txt";
 
-        public override int SolveFirst(IEnumerable<string> lines)
+        public override string SolveFirst(IEnumerable<string> lines)
         {
             var leftNumbers = new List<int>();
             var rightNumbers = new List<int>();
@@ -27,11 +27,11 @@ namespace Day01HistorianHysteria
 
             var totalDistance = leftNumbers.Zip(rightNumbers).Select(pair => Math.Abs(pair.First - pair.Second)).Sum();
 
-            return totalDistance;
+            return totalDistance.ToString();
         }
 
 
-        public override int SolveSecond(IEnumerable<string> lines)
+        public override string SolveSecond(IEnumerable<string> lines)
         {
             var leftNumbers = new List<int>();
             var rightNumbers = new Dictionary<int, int>();
@@ -57,7 +57,7 @@ namespace Day01HistorianHysteria
                 accu += multiplier * number;
             }
 
-            return accu;
+            return accu.ToString();
         }
     }
 }

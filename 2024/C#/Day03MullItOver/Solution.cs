@@ -9,18 +9,18 @@ namespace Day03MullItOver
 
         protected override string InputFileName => "Day03_Input.txt";
 
-        public override int SolveFirst(IEnumerable<string> lines)
+        public override string SolveFirst(IEnumerable<string> lines)
         {
             return lines.SelectMany(line => Regex
                         .Matches(line, "mul\\(?(\\d{0,3},\\d{0,3})\\)"))
                 .Select(match => match.Groups[1].Value.Split(',')
                 .Select(int.Parse)
                 .Aggregate(Multiply))
-                .Sum();
+                .Sum().ToString();
         }
 
 
-        public override int SolveSecond(IEnumerable<string> lines)
+        public override string SolveSecond(IEnumerable<string> lines)
         {
             var matches = lines.SelectMany(line => Regex
                         .Matches(line, "(?'do'do\\(\\))|mul\\(?(?'mul'\\d{0,3},\\d{0,3})\\)|(?'skip'don't\\(\\))"));
@@ -38,7 +38,7 @@ namespace Day03MullItOver
                 if (match.Groups["do"].Success) take = true;
             }
 
-            return sum;
+            return sum.ToString();
         }
 
         private static int Multiply(int a, int b) => a * b;

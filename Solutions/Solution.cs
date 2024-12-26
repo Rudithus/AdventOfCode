@@ -1,12 +1,11 @@
 ﻿using System.Reflection;
-using System.Text.RegularExpressions;
 
 namespace Solutions
 {
     public interface ISolution
     {
-        int SolveFirst(IEnumerable<string> lines);
-        int SolveSecond(IEnumerable<string> lines);
+        string SolveFirst(IEnumerable<string> lines);
+        string SolveSecond(IEnumerable<string> lines);
         string GetExampleFilePath();
         string GetInputFilePath();
     }
@@ -33,7 +32,7 @@ namespace Solutions
             return Path.GetDirectoryName(Assembly.GetAssembly(GetType())?.Location) ?? throw new Exception();
         }
 
-        public abstract int SolveFirst(IEnumerable<string> lines);
-        public abstract int SolveSecond(IEnumerable<string> lines);
+        public abstract string SolveFirst(IEnumerable<string> lines);
+        public abstract string SolveSecond(IEnumerable<string> lines);
     }
 }

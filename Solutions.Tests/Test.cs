@@ -8,6 +8,7 @@ namespace Solutions.Tests
         private readonly ITestOutputHelper _testOutputHelper = testOutputHelper;
 
         [Theory]
+        [InlineData(typeof(Day07BridgeRepair.Solution), 3749)]
         [InlineData(typeof(Day06GuardGallivant.Solution), 41)]
         [InlineData(typeof(Day05PrintQueue.Solution), 143)]
         [InlineData(typeof(Day04CeresSearch.Solution), 18)]
@@ -23,13 +24,14 @@ namespace Solutions.Tests
             var inputFile = File.ReadLines(solution.GetInputFilePath());
 
             var firstAnswer = solution.SolveFirst(exampleFile);
-            firstAnswer.Should().Be(firstExampleAnswer);
+            firstAnswer.Should().Be(firstExampleAnswer.ToString());
             firstAnswer = solution.SolveFirst(inputFile);
 
             _testOutputHelper.WriteLine(firstAnswer.ToString());
         }
 
         [Theory]
+        [InlineData(typeof(Day07BridgeRepair.Solution), 11387)]
         [InlineData(typeof(Day06GuardGallivant.Solution), 6)]
         [InlineData(typeof(Day05PrintQueue.Solution), 123)]
         [InlineData(typeof(Day04CeresSearch.Solution), 9)]
@@ -45,7 +47,7 @@ namespace Solutions.Tests
             var inputFile = File.ReadLines(solution.GetInputFilePath());
 
             var secondAnswer = solution.SolveSecond(exampleFile);
-            secondAnswer.Should().Be(secondExampleAnswer);
+            secondAnswer.Should().Be(secondExampleAnswer.ToString());
             secondAnswer = solution.SolveSecond(inputFile);
 
             _testOutputHelper.WriteLine(secondAnswer.ToString());

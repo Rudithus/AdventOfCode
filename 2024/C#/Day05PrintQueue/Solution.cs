@@ -35,7 +35,7 @@ namespace Day05PrintQueue
             return (rules, updates);
         }
 
-        public override int SolveFirst(IEnumerable<string> lines)
+        public override string SolveFirst(IEnumerable<string> lines)
         {
             var sum = 0;
             var (rules, updates) = ParseRulesAndUpdate(lines);
@@ -61,10 +61,10 @@ namespace Day05PrintQueue
                  })) sum += update.Keys.ElementAt((update.Count / 2));
             }
 
-            return sum;
+            return sum.ToString();
         }
 
-        public override int SolveSecond(IEnumerable<string> lines)
+        public override string SolveSecond(IEnumerable<string> lines)
         {
             var (rules, updates) = ParseRulesAndUpdate(lines);
             var fixedUpdates = new List<Dictionary<int, int>>();
@@ -103,7 +103,7 @@ namespace Day05PrintQueue
                     }
                 }
             }
-            return sum;
+            return sum.ToString();
         }
     }
 }
