@@ -8,6 +8,7 @@ namespace Solutions.Tests
         private readonly ITestOutputHelper _testOutputHelper = testOutputHelper;
 
         [Theory]
+        [InlineData(typeof(Day08ResonantCollinearity.Solution), 14)]
         [InlineData(typeof(Day07BridgeRepair.Solution), 3749)]
         [InlineData(typeof(Day06GuardGallivant.Solution), 41)]
         [InlineData(typeof(Day05PrintQueue.Solution), 143)]
@@ -31,6 +32,7 @@ namespace Solutions.Tests
         }
 
         [Theory]
+        [InlineData(typeof(Day08ResonantCollinearity.Solution), 34)]
         [InlineData(typeof(Day07BridgeRepair.Solution), 11387)]
         [InlineData(typeof(Day06GuardGallivant.Solution), 6)]
         [InlineData(typeof(Day05PrintQueue.Solution), 123)]

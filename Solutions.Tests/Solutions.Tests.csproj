@@ -23,6 +23,7 @@
     <ProjectReference Include="..\2024\C#\Day05PrintQueue\Day05PrintQueue.csproj" />
     <ProjectReference Include="..\2024\C#\Day06GuardGallivant\Day06GuardGallivant.csproj" />
     <ProjectReference Include="..\2024\C#\Day07BridgeRepair\Day07BridgeRepair.csproj" />
+    <ProjectReference Include="..\2024\C#\Day08ResonantCollinearity\Day08ResonantCollinearity.csproj" />
   </ItemGroup>
 
   <ItemGroup>

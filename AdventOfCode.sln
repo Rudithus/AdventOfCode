@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06GuardGallivant", "2024
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07BridgeRepair", "2024\C#\Day07BridgeRepair\Day07BridgeRepair.csproj", "{8044E699-97B5-48E1-A575-A3BE2931FE4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day08ResonantCollinearity", "2024\C#\Day08ResonantCollinearity\Day08ResonantCollinearity.csproj", "{F20F9CF9-BD79-49CB-B586-133ACE3A8A9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{8044E699-97B5-48E1-A575-A3BE2931FE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8044E699-97B5-48E1-A575-A3BE2931FE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8044E699-97B5-48E1-A575-A3BE2931FE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20F9CF9-BD79-49CB-B586-133ACE3A8A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20F9CF9-BD79-49CB-B586-133ACE3A8A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20F9CF9-BD79-49CB-B586-133ACE3A8A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20F9CF9-BD79-49CB-B586-133ACE3A8A9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,5 +86,6 @@ Global
 		{7389D870-0985-4908-9296-EA2A449EE940} = {938D03CB-3AE5-4820-A330-A554D0685FB5}
 		{0A8D0742-2ADC-416F-BF60-A403D64A0F4E} = {938D03CB-3AE5-4820-A330-A554D0685FB5}
 		{8044E699-97B5-48E1-A575-A3BE2931FE4B} = {938D03CB-3AE5-4820-A330-A554D0685FB5}
+		{F20F9CF9-BD79-49CB-B586-133ACE3A8A9E} = {938D03CB-3AE5-4820-A330-A554D0685FB5}
 	EndGlobalSection
 EndGlobal
