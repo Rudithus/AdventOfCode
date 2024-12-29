@@ -24,6 +24,7 @@
     <ProjectReference Include="..\2024\C#\Day06GuardGallivant\Day06GuardGallivant.csproj" />
     <ProjectReference Include="..\2024\C#\Day07BridgeRepair\Day07BridgeRepair.csproj" />
     <ProjectReference Include="..\2024\C#\Day08ResonantCollinearity\Day08ResonantCollinearity.csproj" />
+    <ProjectReference Include="..\2024\C#\Day09DiskFragmenter\Day09DiskFragmenter.csproj" />
   </ItemGroup>
 
   <ItemGroup>
