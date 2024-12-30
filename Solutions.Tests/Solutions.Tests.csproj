@@ -16,19 +16,77 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\2024\C#\Day01HistorianHysteria\Day01HistorianHysteria.csproj" />
-    <ProjectReference Include="..\2024\C#\Day02RedNosedReports\Day02RedNosedReports.csproj" />
-    <ProjectReference Include="..\2024\C#\Day03MullItOver\Day03MullItOver.csproj" />
-    <ProjectReference Include="..\2024\C#\Day04CeresSearch\Day04CeresSearch.csproj" />
-    <ProjectReference Include="..\2024\C#\Day05PrintQueue\Day05PrintQueue.csproj" />
-    <ProjectReference Include="..\2024\C#\Day06GuardGallivant\Day06GuardGallivant.csproj" />
-    <ProjectReference Include="..\2024\C#\Day07BridgeRepair\Day07BridgeRepair.csproj" />
-    <ProjectReference Include="..\2024\C#\Day08ResonantCollinearity\Day08ResonantCollinearity.csproj" />
-    <ProjectReference Include="..\2024\C#\Day09DiskFragmenter\Day09DiskFragmenter.csproj" />
+    <ProjectReference Include="..\Solutions\2024\CSharp\Day01HistorianHysteria\Day01HistorianHysteria.csproj" />
+    <ProjectReference Include="..\Solutions\2024\CSharp\Day02RedNosedReports\Day02RedNosedReports.csproj" />
+    <ProjectReference Include="..\Solutions\2024\CSharp\Day03MullItOver\Day03MullItOver.csproj" />
+    <ProjectReference Include="..\Solutions\2024\CSharp\Day04CeresSearch\Day04CeresSearch.csproj" />
+    <ProjectReference Include="..\Solutions\2024\CSharp\Day05PrintQueue\Day05PrintQueue.csproj" />
+    <ProjectReference Include="..\Solutions\2024\CSharp\Day06GuardGallivant\Day06GuardGallivant.csproj" />
+    <ProjectReference Include="..\Solutions\2024\CSharp\Day07BridgeRepair\Day07BridgeRepair.csproj" />
+    <ProjectReference Include="..\Solutions\2024\CSharp\Day08ResonantCollinearity\Day08ResonantCollinearity.csproj" />
+    <ProjectReference Include="..\Solutions\2024\CSharp\Day09DiskFragmenter\Day09DiskFragmenter.csproj" />
+    <ProjectReference Include="..\Solutions\Solution\Solutions.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Inputs\2024\Day01HistorianHysteria\Example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day01HistorianHysteria\Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day02RedNosedReports\Example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day02RedNosedReports\Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day03MullItOver\Example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day03MullItOver\Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day04CeresSearch\Example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day04CeresSearch\Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day05PrintQueue\Example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day05PrintQueue\Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day06GuardGallivant\Example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day06GuardGallivant\Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day07BridgeRepair\Example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day07BridgeRepair\Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day08ResonantCollinearity\Example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day08ResonantCollinearity\Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day09DiskFragmenter\Example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day09DiskFragmenter\Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
