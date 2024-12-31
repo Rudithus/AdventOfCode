@@ -25,6 +25,7 @@
     <ProjectReference Include="..\Solutions\2024\CSharp\Day07BridgeRepair\Day07BridgeRepair.csproj" />
     <ProjectReference Include="..\Solutions\2024\CSharp\Day08ResonantCollinearity\Day08ResonantCollinearity.csproj" />
     <ProjectReference Include="..\Solutions\2024\CSharp\Day09DiskFragmenter\Day09DiskFragmenter.csproj" />
+    <ProjectReference Include="..\Solutions\2024\CSharp\Day10HoofIt\Day10HoofIt.csproj" />
     <ProjectReference Include="..\Solutions\Solution\Solutions.csproj" />
   </ItemGroup>
 
@@ -85,6 +86,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Inputs\2024\Day09DiskFragmenter\Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day10HoofIt\Example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Inputs\2024\Day10HoofIt\Input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

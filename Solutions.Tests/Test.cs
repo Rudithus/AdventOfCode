@@ -19,6 +19,7 @@ namespace Solutions.Tests
         }
 
         [Theory]
+        [InlineData(typeof(Y2024.CSharp.Day10HoofIt.Solution), 36)]
         [InlineData(typeof(Y2024.CSharp.Day09DiskFragmenter.Solution), 1928)]
         [InlineData(typeof(Y2024.CSharp.Day08ResonantCollinearity.Solution), 14)]
         [InlineData(typeof(Y2024.CSharp.Day07BridgeRepair.Solution), 3749)]
@@ -45,6 +46,7 @@ namespace Solutions.Tests
         }
 
         [Theory]
+        [InlineData(typeof(Y2024.CSharp.Day10HoofIt.Solution), 81)]
         [InlineData(typeof(Y2024.CSharp.Day09DiskFragmenter.Solution), 2858)]
         [InlineData(typeof(Y2024.CSharp.Day08ResonantCollinearity.Solution), 34)]
         [InlineData(typeof(Y2024.CSharp.Day07BridgeRepair.Solution), 11387)]
